@@ -1,0 +1,5 @@
+[cfg]
+out = "foo"
+leader = true
+
+backend = "1.2.3.4"

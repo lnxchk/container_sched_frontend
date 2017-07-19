@@ -1,0 +1,9 @@
+[cfg]
+{{# if svc.me.leader ~}}
+leader = true
+{{ else }}
+leader = false
+{{/if ~}}
+out = "foo"
+
+backend = "{{bind.backend.first.sys.ip}}"
